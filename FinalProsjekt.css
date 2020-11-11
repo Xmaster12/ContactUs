@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+/*----------------- Navigation-bar ---------------------*/
+nav {
+    height: 100px;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    margin: 20px 0px 0px 100px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.logo a{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.logo p{
+    font-size: 18px;
+}
+
+.menu {
+    float: right;
+    margin-right: 100px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 50px 20px;
+}
+
+.menu ul li a{
+    font-size: 14px;
+}
+
+/*----------------- Contact Oss---------------------*/
+
+.space{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color:#8FB399;
+}
+
+.About{
+ display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 20%;
+    height: 40%;
+    background-color: #8FB399;
+}
+
+.About h1{
+
+    padding-top: 10px;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+
+.About p{
+    padding: 40px;
+    margin-left: 14px;
+    font-size: 20px;
+    color: white;
+
+}
+
+
+
+.story{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color:#8FB399;
+    margin-bottom: 50px;
+
+}
+
+.story p{
+
+
+    padding: 15px 30px 20px;
+    font-family: Arial;
+    font-size: 16px;
+    color: white;
+    line-height: 25px;
+
+}
+
+.Information{
+
+    width: 50%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    background-color: ghostwhite;
+}
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.tittel{
+    padding: 20px;
+    font-family: Arial;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px;
+}
+
+.border{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 50px;
+
+}
+
+.linje{
+    text-decoration: none;
+    width: 25%;
+    background-color: orange;
+    border-radius: 12px;
+    height: 8px;
+}
+
+div.ramme {
+    margin-top: 20px;
+    width: 30%;
+    height: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+
+.ramme:hover{
+    transition: 1s;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+
+}
+
+
+.bilde{
+    width: 100%;
+    height: 100%;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.helper{
+    width: 100%;
+    height: 100px;
+    background-color: ghostwhite;
+}
+
+
+
+
+/*----------------------- Footer -----------------------*/
+
+
+
+
+footer {
+    position:relative;
+    bottom:0;
+    width:100%;
+    background-color: #F3F3F3;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.left-side {
+    float: left;
+}
+
+.right-side {
+    float: right;
+}
+
+.copyright {
+    padding-top: 140px;
+    text-align: center;
+}
+
+.s-media a{
+    padding: 0px 10px 0px 0px;
+    font-size: 18px;
+}
+
